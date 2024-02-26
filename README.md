@@ -8,7 +8,7 @@
 
 - 🌱 I’m a **2nd year Software engineer Student**
 
-- 🤝 I’m looking for a **Internship**
+- 🤝 I’m looking for an **Internship**
 
 - 👨‍💻 All of my projects are available at [https://showcase-sharon.netlify.app/](https://showcase-sharon.netlify.app/)
 
