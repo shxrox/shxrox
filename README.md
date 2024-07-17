@@ -10,7 +10,7 @@
 
 - 🤝 I’m looking for an **Internship**
 
-- 👨‍💻 Visit my portfolio [https://showcase-sharon.netlify.app/](https://showcase-sharon.netlify.app/)
+
 
 - 📫 How to reach me **sharondeva8@gmail.com**
 
