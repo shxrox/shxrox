@@ -1,4 +1,5 @@
-![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)
+![MasterHead]![image](https://github.com/user-attachments/assets/bb543c63-387e-4531-97ba-06a8d7edf34b)
+
 
 <h1 align="center">Hi 👋, I'm sharon</h1>
 <h3 align="center">A passionate frontend developer from Sri lanka</h3>
