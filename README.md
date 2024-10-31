@@ -30,5 +30,12 @@
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=shxrox&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
+<div align="center">
+  <h3>🐍 Watch the snake eat up my contributions! 🐍</h3>
+  <img src="https://github.com/shxrox/shxrox/blob/output/github-snake-dark.svg" alt="snake gif" />
+</div>
+
+
+
 ---
 
