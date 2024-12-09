@@ -11,7 +11,8 @@
 🌱 I’m a 2nd year Software engineer Student<br>🤝 I’m looking for an Internship<br>📫 How to reach me sharondeva8@gmail.com<br>⚡ Fun fact I like music.
 
 ## 🌐 Socials:
-[LinkedIn](https://www.linkedin.com/in/sharon-devasudan-1038b72a3)
+[![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo_2013.png)](https://www.linkedin.com/in/sharon-devasudan-1038b72a3)
+
 
 
 # 💻 Tech Stack:
