@@ -2,13 +2,13 @@
 
 
 <h1 align="center">Hi 👋, I'm sharon</h1>
-<h3 align="center">A passionate frontend developer from Sri lanka</h3>
+<h3 align="center">A passionate Software developer from Sri lanka</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shxrox&label=Profile%20views&color=0e75b6&style=flat" alt="shxrox" /> </p>
 
 # 💫 About Me:
-🌱 I’m a 2nd year Software engineer Student<br>🤝 I’m looking for an Internship<br>📫 How to reach me sharondeva8@gmail.com<br>⚡ Fun fact I like music.
+🌱 I’m a Software engineer undergraduate<br>🤝 I’m looking for an Internship<br>📫 How to reach me sharondeva8@gmail.com<br>⚡ Fun fact I like music.
 
 ## 🌐 Socials:
 <p align="left">
