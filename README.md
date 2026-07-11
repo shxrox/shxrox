@@ -7,8 +7,12 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shxrox&label=Profile%20views&color=0e75b6&style=flat" alt="shxrox" /> </p>
 
-# 💫 About Me:
-🌱 I’m a Software engineer undergraduate<br>🤝 I’m looking for an Internship<br>📫 How to reach me sharondeva8@gmail.com<br>⚡ Fun fact I like music.
+# 💫 About Me
+
+🌱 I’m a Software Engineering undergraduate with a passion for building impactful solutions.<br>
+🤝 I’m always open to collaborating on innovative projects and expanding my technical skill set.<br>
+📫 Let's connect: [dsharon.dev@gmail.com](mailto:dsharon.dev@gmail.com)<br>
+🎧 Fun fact: When I’m not writing code, I’m usually discovering new music or curating the perfect playlist.
 
 ## 🌐 Socials:
 <p align="left">
