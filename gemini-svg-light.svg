@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610">
+  <defs>
+    <!-- Background Gradients (Softer for Light Mode) -->
+    <radialGradient id="bgGlow1" cx="20%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="bgGlow2" cx="80%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- ASCII & Accent Gradient (Light Mode Colors) -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB">
+        <animate attributeName="stop-color" values="#2563EB;#06B6D4;#10B981;#2563EB" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#06B6D4">
+        <animate attributeName="stop-color" values="#06B6D4;#10B981;#2563EB;#06B6D4" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#2563EB;#06B6D4;#10B981" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Typing Mask for roles animation -->
+    <clipPath id="typingClip">
+      <rect x="0" y="0" width="0" height="50">
+        <animate attributeName="width" values="0;400;400;0" keyTimes="0;0.4;0.9;1" dur="6s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Base Background -->
+  <rect width="1180" height="610" fill="#FFFFFF" rx="20"/>
+  <rect width="1180" height="610" fill="url(#bgGlow1)" rx="20"/>
+  <rect width="1180" height="610" fill="url(#bgGlow2)" rx="20"/>
+
+  <!-- LEFT SIDE: ASCII Portrait (38%) -->
+  <g transform="translate(30, 30)">
+    <!-- Glass Panel -->
+    <rect width="420" height="550" fill="#F8FAFC" stroke="rgba(15,23,42,0.08)" stroke-width="1.5" rx="16" filter="drop-shadow(0 10px 15px rgba(0,0,0,0.05))" />
+    
+    <!-- Floating ASCII Group -->
+    <g fill="url(#accentGrad)" font-family="monospace" font-size="12" font-weight="bold">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="5s" repeatCount="indefinite" />
+      
+      <!-- ASCII Art Lines -->
+      <text x="40" y="100">      /\_/\       </text>
+      <text x="40" y="120">    =( °w° )=     </text>
+      <text x="40" y="140">      )   (  //   </text>
+      <text x="40" y="160">     (__ __)//    </text>
+      <text x="40" y="200"> SYSTEM STATUS: </text>
+      <text x="40" y="220"> [██████████] 100% </text>
+      <text x="40" y="260"> INITIALIZING... </text>
+      <text x="40" y="280"> LOADING MODULES... </text>
+      
+      <!-- Scanline -->
+      <line x1="20" x2="400" y1="50" y2="50" stroke="rgba(37,99,235,0.3)" stroke-width="2">
+        <animate attributeName="y1" values="50; 500; 50" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="50; 500; 50" dur="4s" repeatCount="indefinite" />
+      </line>
+    </g>
+  </g>
+
+  <!-- RIGHT SIDE: Terminal (62%) -->
+  <g transform="translate(480, 30)">
+    <!-- Glass Panel -->
+    <rect width="670" height="550" fill="#F8FAFC" stroke="rgba(15,23,42,0.08)" stroke-width="1.5" rx="16" filter="drop-shadow(0 10px 15px rgba(0,0,0,0.05))" />
+    
+    <!-- Terminal Header Buttons -->
+    <circle cx="30" cy="30" r="6" fill="#EF4444" />
+    <circle cx="50" cy="30" r="6" fill="#F59E0B" />
+    <circle cx="70" cy="30" r="6" fill="#10B981" />
+    <line x1="20" y1="55" x2="650" y2="55" stroke="rgba(15,23,42,0.05)" stroke-width="1" />
+
+    <!-- Greeting -->
+    <text x="30" y="110" fill="#0F172A" font-family="sans-serif" font-size="32" font-weight="bold">Hi, I'm Sharon Devasudan</text>
+    
+    <!-- Typing Animation Container -->
+    <g transform="translate(30, 140)">
+      <!-- Animated Text Cycle -->
+      <g clip-path="url(#typingClip)">
+        <text x="0" y="0" fill="url(#accentGrad)" font-family="monospace" font-size="24">
+          > Software Engineer_
+          <animate attributeName="opacity" values="1;1;0;0;0;0" keyTimes="0;0.33;0.34;0.66;0.67;1" dur="18s" repeatCount="indefinite" />
+        </text>
+        <text x="0" y="0" fill="url(#accentGrad)" font-family="monospace" font-size="24" opacity="0">
+          > Full-Stack Developer_
+          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.34;0.66;0.67;1" dur="18s" repeatCount="indefinite" />
+        </text>
+        <text x="0" y="0" fill="url(#accentGrad)" font-family="monospace" font-size="24" opacity="0">
+          > MERN &amp; AI Enthusiast_
+          <animate attributeName="opacity" values="0;0;0;0;1;1" keyTimes="0;0.33;0.34;0.66;0.67;1" dur="18s" repeatCount="indefinite" />
+        </text>
+      </g>
+    </g>
+
+    <!-- Info List -->
+    <g font-family="sans-serif" font-size="16" transform="translate(30, 220)">
+      <text x="0" y="0" fill="#475569">📍 Location:</text>
+      <text x="140" y="0" fill="#0F172A">Colombo, Sri Lanka</text>
+      
+      <text x="0" y="40" fill="#475569">🎓 Education:</text>
+      <text x="140" y="40" fill="#0F172A">BSc in Software Engineering</text>
+      
+      <text x="0" y="80" fill="#475569">⚡ Current Focus:</text>
+      <text x="140" y="80" fill="#0F172A">Full-Stack Dev &amp; AI Solutions</text>
+      
+      <text x="0" y="120" fill="#475569">💼 Portfolio:</text>
+      <text x="140" y="120" fill="#0F172A">shxrox.github.io/portfolio</text>
+    </g>
+
+    <!-- Skills Section (Pills) -->
+    <text x="30" y="380" fill="#0F172A" font-family="sans-serif" font-size="20" font-weight="bold">Tech Stack</text>
+    
+    <g transform="translate(30, 410)">
+      <!-- Row 1 -->
+      <g>
+        <rect x="0" y="0" width="90" height="32" rx="16" fill="rgba(15,23,42,0.05)" stroke="rgba(15,23,42,0.1)" stroke-width="1" />
+        <text x="45" y="21" fill="#0F172A" font-family="sans-serif" font-size="13" text-anchor="middle">React.js</text>
+      </g>
+      <g transform="translate(100, 0)">
+        <rect x="0" y="0" width="105" height="32" rx="16" fill="rgba(15,23,42,0.05)" stroke="rgba(15,23,42,0.1)" stroke-width="1" />
+        <text x="52.5" y="21" fill="#0F172A" font-family="sans-serif" font-size="13" text-anchor="middle">TypeScript</text>
+      </g>
+      <g transform="translate(215, 0)">
+        <rect x="0" y="0" width="90" height="32" rx="16" fill="rgba(15,23,42,0.05)" stroke="rgba(15,23,42,0.1)" stroke-width="1" />
+        <text x="45" y="21" fill="#0F172A" font-family="sans-serif" font-size="13" text-anchor="middle">Node.js</text>
+      </g>
+      <g transform="translate(315, 0)">
+        <rect x="0" y="0" width="100" height="32" rx="16" fill="rgba(15,23,42,0.05)" stroke="rgba(15,23,42,0.1)" stroke-width="1" />
+        <text x="50" y="21" fill="#0F172A" font-family="sans-serif" font-size="13" text-anchor="middle">Express.js</text>
+      </g>
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 45)">
+        <rect x="0" y="0" width="70" height="32" rx="16" fill="rgba(15,23,42,0.05)" stroke="rgba(15,23,42,0.1)" stroke-width="1" />
+        <text x="35" y="21" fill="#0F172A" font-family="sans-serif" font-size="13" text-anchor="middle">Java</text>
+      </g>
+      <g transform="translate(80, 45)">
+        <rect x="0" y="0" width="105" height="32" rx="16" fill="rgba(15,23,42,0.05)" stroke="rgba(15,23,42,0.1)" stroke-width="1" />
+        <text x="52.5" y="21" fill="#0F172A" font-family="sans-serif" font-size="13" text-anchor="middle">Spring Boot</text>
+      </g>
+      <g transform="translate(195, 45)">
+        <rect x="0" y="0" width="80" height="32" rx="16" fill="rgba(15,23,42,0.05)" stroke="rgba(15,23,42,0.1)" stroke-width="1" />
+        <text x="40" y="21" fill="#0F172A" font-family="sans-serif" font-size="13" text-anchor="middle">Python</text>
+      </g>
+      <g transform="translate(285, 45)">
+        <rect x="0" y="0" width="85" height="32" rx="16" fill="rgba(15,23,42,0.05)" stroke="rgba(15,23,42,0.1)" stroke-width="1" />
+        <text x="42.5" y="21" fill="#0F172A" font-family="sans-serif" font-size="13" text-anchor="middle">Jupyter</text>
+      </g>
+
+      <!-- Row 3 -->
+      <g transform="translate(0, 90)">
+        <rect x="0" y="0" width="95" height="32" rx="16" fill="rgba(15,23,42,0.05)" stroke="rgba(15,23,42,0.1)" stroke-width="1" />
+        <text x="47.5" y="21" fill="#0F172A" font-family="sans-serif" font-size="13" text-anchor="middle">MongoDB</text>
+      </g>
+      <g transform="translate(105, 90)">
+        <rect x="0" y="0" width="80" height="32" rx="16" fill="rgba(15,23,42,0.05)" stroke="rgba(15,23,42,0.1)" stroke-width="1" />
+        <text x="40" y="21" fill="#0F172A" font-family="sans-serif" font-size="13" text-anchor="middle">MySQL</text>
+      </g>
+      <g transform="translate(195, 90)">
+        <rect x="0" y="0" width="75" height="32" rx="16" fill="rgba(15,23,42,0.05)" stroke="rgba(15,23,42,0.1)" stroke-width="1" />
+        <text x="37.5" y="21" fill="#0F172A" font-family="sans-serif" font-size="13" text-anchor="middle">HTML5</text>
+      </g>
+      <g transform="translate(280, 90)">
+        <rect x="0" y="0" width="75" height="32" rx="16" fill="rgba(15,23,42,0.05)" stroke="rgba(15,23,42,0.1)" stroke-width="1" />
+        <text x="37.5" y="21" fill="#0F172A" font-family="sans-serif" font-size="13" text-anchor="middle">CSS3</text>
+      </g>
+    </g>
+  </g>
+</svg>
